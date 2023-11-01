@@ -1,0 +1,116 @@
+.container {
+    width: 100%;
+}
+
+.navgn {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(300deg, #32444a, #07384a, #360704);
+    background-size: 360% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #4b636c, #0d5874, #5b0d08);
+    background-size: 360% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+.cards {
+    display: flex;
+    padding-top: 150px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin: 0px 0px 0px 0px;
+}
+
+.card-header>h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-pink {
+    background: linear-gradient(300deg, #fb6cfb, #f02cd9, #fc046b);
+    color: whitesmoke;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body>button {
+    margin: 5px;
+}
+
+.expcard {
+    display: flex;
+}
+
+.expcard * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.educard{
+    padding-top: 100px;
+}
+.educard > .row{
+    display: flex;
+    flex-direction: row;
+}
+.educard .card{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thumbs{
+    width: 60%;
+    padding-top: 150px;
+}
+.thumbs>div{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.thumbs *{
+    align-items: center;
+    text-align: left;
+}
+.thumbs .card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillcard{
+    display: flex;
+    flex-direction: row;
+}
+.skillcard .card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.appcards h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
